@@ -1,6 +1,6 @@
 " vivid#getWindowList:
 "  return Dictionary Type.
-"    key is window number(String), and value is buffer number(String).
+"    key is window number(String), and value is buffer number.
 function! vivid#getWindowList() abort
     let res = {}
 
